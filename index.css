@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+img{
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+    border:solid black 1px;
+    padding: 2px 10px 10px 10px;
+}
+p{
+    padding: 30px;
+    font-size: 20px;
+   color: ivory;
+}
+
+.footer {
+    padding-bottom: 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+ 
+
+
+body{
+    background-image: url(../hm2image/danny1.jpg);
+}
+
+

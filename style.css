@@ -1,0 +1,79 @@
+h1 {
+   padding: 5px;
+    border: 10px 10px ;
+    
+    margin: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+   
+
+.row{
+    content: 10px 10px;
+    padding-bottom: 20px;
+
+    border: 5px 5px 5px 5px;
+    margin:1px;
+    color: blue;
+   
+}
+.form-row{
+   padding-left: 20px;
+   padding-top: 50px;
+   color: white;
+   font-style: italic;
+   font-weight: bolder;
+}
+ 
+
+
+.jumbotron-ch{
+    
+  
+    margin-right: 0rem;
+    margin-bottom: 0px;
+    background-color: white;
+    font-size: 15px;
+    border-radius: .3rem;
+}
+
+img {
+    
+
+    height: 350px;
+    width: 700px;
+  }
+
+footer {
+
+
+    font-size: 10px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width:500px) and (min-width:100px){
+
+ }
+
+ body{
+    background-image: url(../hm2image/danny1.jpg);
+}
+
+#invalidCheck{
+
+color: white;
+}
+
+
+
