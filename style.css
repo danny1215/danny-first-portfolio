@@ -1,12 +1,11 @@
 h1 {
    padding: 5px;
     border: 10px 10px ;
-    
     margin: 10px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 20px;
 }
 
@@ -36,9 +35,10 @@ h1 {
   
     margin-right: 0rem;
     margin-bottom: 0px;
-    background-color: white;
+    background-color: black;
     font-size: 15px;
     border-radius: .3rem;
+    color: white;
 }
 
 img {
@@ -50,24 +50,24 @@ img {
 
 footer {
 
-
-    font-size: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
     position: fixed;
     left: 0px;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
-    background-color: cornflowerblue;
+    background-color: black;
     color: white;
     text-align: center;
     
 }
+@media (min-width: 992px).navbar-collapse{
 
-@media only screen and (max-width:500px) and (min-width:100px){
+}
 
- }
 
  body{
-    background-image: url(../dannyHomeWork2/danny1.jpg);
+    background-image: url(./danny1.jpg);
 }
 
 #invalidCheck{
