@@ -17,26 +17,25 @@
       <!--div tag with jumbotron-ch class-->
       <div class="jumbotron-ch">
         <!--nav bar tag-->
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <span class="navbar-brand mb-0 h1">Daniel Mestawat</span>
-            <ul class="nav justify-content-end">
-              <!--nav bar tag with a link to about nav--> 
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Contact</a>
-                <a href="./contact.html"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">About</a> <span class="sr-only">(current)</span></a>
               </li>
-              <!--nav bar tag with a link to about nav--> 
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                <a href="./portfolio.html"></a>
               </li>
-                     <!--nav bar tag with a link to about nav--> 
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html">About</a>
-                <a href="./index.html"></a>
+              <li class="nav-item active">
+                <a class="nav-link" href="./contact.html">Contact</a>
               </li>
-        
+              
             </ul>
+          </div>
         </nav>
         <!--header tag-->
     </header>
@@ -54,28 +53,22 @@
           <label for="validation">First name</label>
           <input type="text" class="form-control" id="validationCustom01" value="" required>
           <div class="valid-feedback">
-           
           </div>
         </div>
-        
         <div class="col-md-3 mb-3">
           <label for="validationCustom02">Last name</label>
           <input type="text" class="form-control" id="validationCustom02" value="" required>
           <div class="valid-feedback">
-   
-          </div>
+        </div>
         </div>
       </div>
-      
       <div class="form-row">
         <div class="col-md-3 mb-3">
-          <label for="validationCustom03">City</label>
+          <label for="validationCustom03">Message</label>
           <input type="text" class="form-control" id="validationCustom03" required>
           <div class="invalid-feedback">
-            
           </div>
         </div>
-        <!--div tag for the form state "Please select a valid state".-->
         <div class="col-md-3 mb-3">
           <label for="validationCustom04">State</label>
           <select class="custom-select" id="validationCustom04" required>
@@ -83,12 +76,11 @@
             <option>...</option>
           </select>
           <div class="invalid-feedback">
-            
           </div>
         </div>
         <!--div tag for the form zip -->
         <div class="col-md-3 mb-3">
-          <label for="validationCustom05">Zip</label>
+          <label for="validationCustom05">Phone Number</label>
           <input type="text" class="form-control" id="validationCustom05" required>
           <div class="invalid-feedback">
             Please provide a valid zip.
@@ -99,14 +91,12 @@
       <div class="form-group">
         <button class="btn btn-secondary" type="submit">Submit form</button>
     </form>
-      <!--footer tag inside div-->
+     <!--footer tag inside div-->
     <footer class="footer">
       <div class="container">
-        <span>Daniel mestawat &copy; 2020 all rights reserved!</span>
+        <span>Daniel Mestawat &copy; 2020 all rights reserved!</span>
       </div>
     </footer>
-    
-    
     <script>
     // Example starter JavaScript for disabling form submissions if there are invalid fields
     (function() {
